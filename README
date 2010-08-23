@@ -1,0 +1,17 @@
+Move this file to ~/.irbrc and then you will magically have command history in both irb and script/console (if you're using Rails).
+
+INSTALL
+-------
+git clone git@github.com:thirdreplicator/irbrc
+mv irbrc/.irbrc ~/.irbrc
+
+# If you're using RVM:
+gem install wirble map_by_method
+
+USAGE
+-----
+irb
+# Type some Ruby commands
+# Use <UP-KEY> on keyboard to see previous commands
+
+Enjoy. 
